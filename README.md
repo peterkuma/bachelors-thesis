@@ -39,6 +39,7 @@ files:
   - `atrain-overview.jpg`
   - `caliop.pdf`
   - `scattering.pdf`
+
   See the text of the thesis for an attribution of the these images.
 
 The following files are under different copyright terms, as specified inside

@@ -3,6 +3,7 @@
 This repository contains source files of the bachelor's thesis *Visualising
 Data from CloudSat and CALIPSO Satellites*.
 
+**School:** Comenius University, Bratislava, Slovakia\
 **Supervisor:** Mgr. Ivan Bašták Ďurán, PhD.\
 **Defended:** 1 July 2010\
 **Archive:** [Zenodo](https://zenodo.org/record/3764234)\

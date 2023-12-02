@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="531.49603"
+   height="733.46454"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="case2-antarctica.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective5366"
+       inkscape:persp3d-origin="370 : 240 : 1"
+       inkscape:vp_z="740 : 360 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 360 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective11248"
+       inkscape:persp3d-origin="370 : 240 : 1"
+       inkscape:vp_z="740 : 360 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 360 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective14445"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective14498"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective14582"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="414.86373"
+     inkscape:cy="564.63733"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     units="mm">
+    <inkscape:grid
+       type="xygrid"
+       id="grid14512"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <image
+       y="1.8976029"
+       x="267.12787"
+       id="image14447"
+       height="258.5307"
+       width="265.74802"
+       sodipodi:absref="/mnt/data3/nasa-data/casestudies/2007-06-12 (163) 04:20 Antarctica/orbit-modis_x31+calipso.png"
+       xlink:href="/mnt/data3/nasa-data/casestudies/2007-06-12 (163) 04:20 Antarctica/orbit-modis_x31+calipso.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"
+       x="265.99576"
+       y="11.440989"
+       id="text12961"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan12963"
+         x="265.99576"
+         y="11.440989">a)</tspan></text>
+    <image
+       y="249.37587"
+       x="0"
+       id="image14500"
+       height="235.78383"
+       width="531.49603"
+       sodipodi:absref="/mnt/data3/nasa-data/casestudies/2007-06-12 (163) 04:20 Antarctica/1calipso532.png"
+       xlink:href="/mnt/data3/nasa-data/casestudies/2007-06-12 (163) 04:20 Antarctica/1calipso532.png" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text14514"
+       y="247.90392"
+       x="1.956"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"
+       xml:space="preserve"><tspan
+         y="247.90392"
+         x="1.956"
+         id="tspan14516"
+         sodipodi:role="line">b)</tspan></text>
+    <image
+       y="494.18832"
+       x="0"
+       id="image14584"
+       height="235.78384"
+       width="531.49603"
+       sodipodi:absref="/mnt/data3/nasa-data/casestudies/2007-06-12 (163) 04:20 Antarctica/1calipso532p.png"
+       xlink:href="/mnt/data3/nasa-data/casestudies/2007-06-12 (163) 04:20 Antarctica/1calipso532p.png" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"
+       x="1.956"
+       y="491.20715"
+       id="text14588"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan14590"
+         x="1.956"
+         y="491.20715">c)</tspan></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot14694"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"><flowRegion
+         id="flowRegion14696"><rect
+           id="rect14698"
+           width="528.57141"
+           height="89.285713"
+           x="4.2857141"
+           y="7.6208749" /></flowRegion><flowPara
+         id="flowPara14700"></flowPara></flowRoot>    <flowRoot
+       transform="translate(-50.397582,-42.857143)"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Myriad Pro;-inkscape-font-specification:Myriad Pro"
+       id="flowRoot14702"
+       xml:space="preserve"><flowRegion
+         id="flowRegion14704"><rect
+           style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Myriad Pro;-inkscape-font-specification:Myriad Pro"
+           y="45.240093"
+           x="51.51778"
+           height="229.302"
+           width="257.84277"
+           id="rect14706" /></flowRegion><flowPara
+         style="font-weight:bold"
+         id="flowPara14884">a<flowSpan
+   style="font-weight:normal"
+   id="flowSpan14874">, this case show a track over Palmer Land at the base of Antarctic Peninsula during winter.<flowSpan
+   style="font-weight:bold"
+   id="flowSpan14890"></flowSpan></flowSpan></flowPara><flowPara
+         style="font-weight:bold"
+         id="flowPara14933"><flowSpan
+           style="font-weight:normal"
+           id="flowSpan14935"><flowSpan
+             style="font-weight:bold"
+             id="flowSpan14937"></flowSpan></flowSpan></flowPara><flowPara
+         style="font-weight:bold"
+         id="flowPara14940"><flowSpan
+           style="font-weight:normal"
+           id="flowSpan14942"><flowSpan
+   style="font-weight:bold"
+   id="flowSpan14944">b</flowSpan>, visible are two clouds, the larger one stretches up to about 13 km. It has a lower part as well, but it is only visible in the CloudSat profile, either because the attenuation by the overlying layers is too high, or because the lower part is composed of larger particles such as snow pellets. A much more faint second cloud is visible at 20km.<flowSpan
+   style="font-weight:bold"
+   id="flowSpan14931"></flowSpan></flowSpan></flowPara><flowPara
+         style="font-weight:bold"
+         id="flowPara14947"><flowSpan
+           style="font-weight:normal"
+           id="flowSpan14949"><flowSpan
+             style="font-weight:bold"
+             id="flowSpan14951"></flowSpan></flowSpan></flowPara><flowPara
+         style="font-weight:bold"
+         id="flowPara14953"><flowSpan
+           style="font-weight:normal"
+           id="flowSpan14955"><flowSpan
+   style="font-weight:bold"
+   id="flowSpan14957">c</flowSpan>, light scattered from both clouds is strongly polarised, which indicates ice-phase clouds, as we would expect in Antarctica in winter. </flowSpan></flowPara></flowRoot>  </g>
+</svg>

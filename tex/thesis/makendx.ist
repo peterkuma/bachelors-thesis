@@ -1,0 +1,26 @@
+%% 
+%% This is file `makendx.ist',
+%% generated with the docstrip utility.
+%% 
+%% The original source files were:
+%% 
+%% makendx.dtx  (with options: `ist')
+%% 
+%% Copyright (C) 1996 by Wenzel Matiaske, mati1831@perform.ww.tu-berlin.de 
+%% 
+%% You are not allowed to distribute this file without the 
+%% original source makendx.dtx. For distribution of the 
+%% sources see the copyright notice in the file makendx.dtx. 
+%% 
+%% MakeIndex style file makendx.ist
+%% 1995/10/29  Wenzel Matiaske
+%%
+%% keyword for nameindex entry
+keyword   "\\nameindexentry"
+%% Begin nameindex entries
+preamble  "\n \\begin{thenameindex}\n"
+%% End   nameindex entries
+postamble "\n \\end{thenameindex}\n"
+\endinput
+%% 
+%% End of file `makendx.ist'.

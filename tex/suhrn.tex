@@ -1,0 +1,48 @@
+
+
+
+\chapter*{Vizualizácia dát zo satelitov CloudSat a CALIPSO}
+\section*{\LARGE Súhrn práce}
+\chaptermark{Súhrn}
+CloudSat a CALIPSO sú satelity obiehajúce okolo Zeme na polárnej dráhe, slúžiace
+primárne na meranie oblakov a aerosólov. Prevádzkované sú organizáciami NASA a
+CNES. 
+Sú súčasťou formácie satelitov
+nazývanej A-Train (Afternoon Train, čiže poobedný), lebo prelietajú cez rovník
+približne o 13:30 stredného miestneho času. Vďaka svojej blízkosti (iba asi
+\SI{15}{min}) a rozmanitosti meracích prístrojov poskytujú bohaté informácie o
+atmosfére a povrchu Zeme na danom mieste a v danom čase.
+
+CloudSat nesie na palube radar CPR podobný pozemným zrážkovým rádiolokátorom
+využívanými meteorologickými službami, pracujúci na frekvencii \SI{94}{GHz}. Slúži na
+vytvára\-nie dvojrozmerných rezov atmosférou od povrchu do \SI{30}{km}, na ktorých sú
+identifikovateľné hlavne oblaky tvorené z kvapiek.
+
+CALIPSO nesie lidar (laserový radar) CALIOP, pracujúci vo viditeľnom a
+infračervenom spektre (presnejšie vlnová dĺžka \SI{532}{nm}, resp. \SI{1064}{nm}). Jeho hlavné
+produky sú podobné ako produkty CPR, čiže vertikálne rezy atmosférou. Vďaka
+kratšej vlnovej dĺžke je citlivý na menšie objekty, hlavne aerosóly a oblaky
+tvorené z ľadových kryštálov.
+
+Satelity CloudSat a CALIPSO, ale aj ostatné členy zostavy A-Train, sú vďaka
+širokej plejáde produktov, globálnemu pokrytiu a súbežnosti meraní veľmi
+užitočným nástrojom pre výskum atmosféry a klimatického systému Zeme. Sú
+využívané tak v meteorologickom, ako aj klimatologickom výskume.
+
+Keďže dostupné aplikácie na vizualizáciu dát z CPR a CALIOP buď nespĺňajú naše
+požiadavky na vyextrahovanie maximálnej úrovne detailov a produkčnú kvalitu
+výstupu, alebo vyžadujú veľmi nákladné platformy ako \program{ITTVIS IDL}, bolo
+potrebné, aby sme vyvinuli vlastný nástroj. To sme si stanovili ako cieľ tejto práce.
+
+Takýto nástroj sme vyvinuli a nazvali sme ho \ccplot. Je to
+unixový program používajúci voľne dostupné knižnice a programovací jazyk
+\program{Python}. Umožnuje vizualizáciu niekoľkých typov produktov nielen z CPR
+a CALIOP, ale aj spektrorádiometra MODIS na satelite Aqua (tiež člen zostavy
+A-Train), a tak užívateľom poskytuje pomerne široký prehľad o študovanej
+situácii. \ccplot sme uverejnili prostredníctvom Internetu pod licenciou umožňujúcou
+bezplatné používanie bez obmedzení, ako aj úpravu zdrojového kódu a redistribúciu.
+
+V tejto práci sa sústredíme na predstavenie jednotlivých produktov,
+vysvetlenie fyzikálneho princípu ich merania a spracovania, na technické detaily formátu
+používaného na distribúciu produktov, detailný popis implementácie a algoritmov
+použitých v programe \ccplot, a podanie návodu, ako používať tento program.

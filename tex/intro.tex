@@ -1,0 +1,137 @@
+\chapter{Introduction}
+CloudSat and CALIPSO are Earth observation satellites launched and operated by
+NASA, and NASA
+and CNES (respectively), developed in order to deepen our understanding of
+clouds,
+aerosols, and how they influence the Earth's radiation budget. As of June 2010
+they are still in operation, and so far they have generated hundreds of
+terabytes of data, ranging from raw sensor measurement to highly processed
+measurements combined with data from other satellites, model outputs and
+databases. All this information can only be useful to the broader scientific
+community if they are provided with tools that enable them to visualise it.
+Although the CloudSat and CALIPSO missions provide such tools, they have a
+number of shortcomings, which make them unsuitable in some situations. They are
+either in the form of \program{ITTVIS~IDL} and \program{MATLAB} scripts, which
+are expensive proprietary platforms, or provided through the web service
+\program{Giovanni}, which does not offer the flexibility of a standalone
+application. There is also an implementation of a CALIPSO visualisation tool for
+\program{Google~Earth}, but it does not provide the level of details of
+traditional two-dimensional forms of presentation and publication quality
+output.
+To accommodate the needs of our research at the \textit{Department of Astronomy,
+Physics of the Earth and Meteorology} of the \textit{Comenius University}, it
+was necessary to develop a computer program which would allow us to visualise 
+this data efficiently and in high quality.
+The aim of this thesis was to develop and document such a tool. We shall call it
+\ccplot.
+
+\section{Goals}
+The following features were desired:
+\begin{itemize}
+\item \textbf{Products support.} Support several data sets, especially:
+\begin{itemize}
+\item \textbf{CALIPSO:} Total Attenuated Backscatter \SI{532}{nm}, Attenuated Backscatter \SI{1064}{nm},
+Perpendicular Attenuated Backscatter \SI{532}{nm}, Integrated Attenuated Backscatter \SI{532}{nm},
+Integrated Attenuated Backscatter \SI{1064}{nm}
+\item \textbf{CloudSat:} Radar Reflectivity Factor
+\item \textbf{MODIS Level 1:} Band 1 RSB, Band 31 TEB
+\end{itemize}
+\item \textbf{Extent selection.} Allow plot extent to be selected
+vertically by height, and horizontally by rays, time, geographical coordinates,
+scanlines and samples.
+\item \textbf{Color maps.} Custom color maps for the supported data sets should be constructed.
+\item \textbf{Map projections.} At least Transverse Mercator projection should be supported.
+\item \textbf{Interpolation algorithm.} The interpolation algorithm should preserve
+as much details as possible.
+\item \textbf{Scriptability.} The program should provide interface which allows
+it to be used with other programs and scripts.
+\end{itemize}
+
+
+\section{CloudSat and CALIPSO Satellites}
+
+The CloudSat and CALIPSO missions are build on the legacy of ground-based
+rainfall radars and airborne lidars, but the extent of their coverage is
+unmatched by any ground or air operations. CloudSat is a satellite equipped
+with a millimetre-wavelength radar especially suited for studying the properties
+of warm and mixed-phase clouds. The primary products coming from CloudSat are
+two-dimensional vertical cross-sections of the atmosphere extending from the
+ground to some \SI{30}{km} of altitude.
+
+CALIPSO is equipped with a visible and near-infrared lidar. Due to its small
+wavelength, it is capable of detecting ice-phase clouds and aerosols. The primary
+products are cross-sections of the atmosphere similar to those of CloudSat.
+Because CloudSat and CALIPSO fly in a formation no more than \SI{15}{s} apart, their
+output can be readily matched to make a more comprehensive view of the
+situation.
+
+Thanks to the global scale and time continuity of the measurements CloudSat
+and CALIPSO provide a great potential for advancement of our understanding of
+processes influencing the Earth's climate system. The data can also aid
+meteorologists in studying the structure and development of clouds and aerosols,
+although not in weather forecasting, because of the intermittent character of
+coverage inherent to polar-orbiting satellites.
+
+Data from CloudSat and CALIPSO are well-suited to be combined with
+measurements from the visible and infrared spectroradiometer MODIS carried on
+board of
+the satellite Aqua, thereby providing the user with information about broader
+circumstances surrounding the situation that is being studied.
+
+CloudSat, CALIPSO and Aqua are members of a larger formation of Earth
+observation satellites \textit{A-Train},
+operated mostly by NASA.
+
+\section*{Organisation}
+\begin{itemize}
+\item\textbf{Chapter 1. Introduction} explains what
+the CloudSat and CALIPSO satellites are, and what kind of measurements they
+provide.
+
+\item\textbf{Chapter 2. A-Train} starts by introducing the A-Train constellation
+of
+satellites, and continues by
+describing their instruments and data products provided by the missions.
+
+\item\textbf{Chapter 3. The Physical Basis} aims to present the reader with the
+scientific
+basis underlying the operation of radars and lidars by first introducing the
+physical laws governing radiation transfer and scattering in the atmosphere, and
+secondly by explaining equations used by the missions in converting of raw data
+originating from detectors into useful physical quantities suitable for
+visualisation.
+
+\item\textbf{Chapter 4. HDF4 Data Files} provides information on the technical
+details of the
+file standard employed by NASA EOS missions for storage and distribution of
+their products --- the HDF4 and HDF-EOS2 file formats. Particularities of
+CloudSat, CALIPSO and MODIS such as the file naming conventions and fine data
+structure are also discussed in this chapter.
+
+\item\textbf{Chapter 5. Visualising CloudSat} and CALIPSO Data strives to
+document the design
+and implementation details of \ccplot, including the relationship of various
+components of \ccplot, calculations of plot dimensions, and the interpolation
+and
+layer processing algorithms.
+
+\item\textbf{Chapter 6. ccplot Manual} is a standalone part of the thesis aimed
+at proving a
+first-time \ccplot user with an easy to follow tutorial, diving into more
+complex
+aspects such as plot customisation and description how to make your own color
+maps.
+
+\item\textbf{Chapter 7. Conclusion} summarises the outcomes of our work on
+\ccplot, and
+presents visions we have for the future versions of \ccplot.
+
+\item\textbf{Appendix A. ccplot Manual Page} is a full \ccplot reference in the
+form of a traditional
+UNIX manual
+page. 
+\item\textbf{Appendix B. Case Studies} contains three case studies serving as a
+visual presentation of
+what can be achieved with \ccplot.
+\end{itemize}
+

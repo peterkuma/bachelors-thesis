@@ -1,0 +1,37 @@
+\chapter{Conclusion}
+As stated in the \textit{Introduction}, the aim of this thesis was to develop a tool called \ccplot
+which would allow us to visualise data originating from CloudSat and CALIPSO.
+We developed and released this program under the open-source-compatible, two-clause BSD license. As such,
+\ccplot and its source code is available to any one with no charge, and
+it can be modified and redistributed without restrictions. The third-party tools
+necessary to run \ccplot are released under similar permissive licenses. It can
+be run on a number of unix-compatible operating system platforms including
+\program{Linux}. \ccplot can be downloaded from \url{http://www.ccplot.org}.
+Presentation of three case studies of \ccplot can be found in Appendix~B.
+
+The development of \ccplot started with a simple goal of being able to
+visualise a few data sets from CloudSat, CALIPSO and MODIS products. Over the course of several months it grew
+from a few lines of code of the very first implementation into a much more
+complex program of more than 2700 lines. It is now able to handle more
+sophisticated extent selection, plot layout customisation, multiple projections
+and custom color maps. We started a web site to make it available to any one who
+needs it. By opening it as an open source project, we hope to
+attract new developers, encourage users to help with reporting and fixing of
+flaws in the program, and providing them with a place for discussion.
+
+However, during the development we encountered many areas where improvement can
+be made. To mention just a few, some of the libraries can be replaced with
+alternatives that will provide greater performance and lower-level access, such as
+the \program{cairo} 2D drawing library or \program{proj.4} map projection toolkit. More
+consistent application models for holding data structures can be introduced, so
+that support for new products can be added more readily.
+There are plans to build a GUI version to make the experience of working with \ccplot more
+pleasurable to the user. Because there are many approaches to choose from, we
+want decide according to feedback from users of the current version of
+\ccplot. For example, it can be designed to allow for a very detailed examination
+of a single product file, or it can be designed to combine many products effectively,
+thereby enabling the user to handle large amounts of data quickly and comprehensively.
+Last but not least, we would like \ccplot to become a universal tool capable
+of visualising most scientific data coming from CloudSat and CALIPSO (and
+potentially other A-Train members as well), but that is a goal yet to be
+achieved.

@@ -1,0 +1,58 @@
+\NeedsTeXFormat{LaTeX2e}
+\documentclass{mythesis}
+\hyphenation{CloudSat CALIPSO}
+
+\pdfinfo{
+  /Author (Peter Kuma)
+  /Title  (Visualising Data from CloudSat and CALIPSO Satellites)
+  /Creator (LaTeX)
+  /Producer ()
+  /Keywords (CloudSat;CALIPSO;MODIS;A-Train;HDF4;HDF-EOS2;ccplot;plot;visualization)
+}
+
+\begin{document}
+
+\input{cover.tex}
+
+\cleardoublepage
+\setcounter{page}{1}
+\input{titlepage.tex}
+
+\input{zadanie.tex}
+\input{suhrn.tex}
+\input{abstrakt.tex}
+
+\clearpage
+\input{abstract.tex}
+
+\sffamily
+\setcounter{tocdepth}{2}
+\makeatletter
+\renewcommand{\@dotsep}{10000}
+\makeatother
+\cleardoublepage
+\tableofcontents
+\clearpage
+\listoffigures
+\clearpage
+\listoftables
+\rmfamily
+
+\input{acknowledgements.tex}
+
+\input{intro.tex}
+\input{atrain.tex}
+\input{physical-basis.tex}
+\input{hdf.tex}
+\input{ccplot.tex}
+\input{manual.tex}
+\input{conclusions.tex}
+
+\input{appendix-a.tex}
+\input{appendix-b.tex}
+
+\bibliography{bibfile}
+
+\input{abbreviations.tex}
+\input{index.tex}
+\end{document}
